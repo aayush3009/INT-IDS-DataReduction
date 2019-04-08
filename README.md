@@ -2,9 +2,9 @@
 Pipeline to reduce long-slit spectra taken using IDS on the Isaac Newton Telescope, La Palma
 
 ## Pre requisites
-This pipeline is based on Python 3, and works best in a Jupyter Notebook environment. Installation instructions for Jupyter Notebook can be found here: https://jupyter.org/install
+This pipeline is based on Python 3, and works best in a Jupyter Notebook environment. Installation instructions for Jupyter Notebook can be found here: https://jupyter.org/install.
 
-The following Python packages are needed for this pipeline to function
+The following Python packages are needed for this pipeline to function:
 - numpy
 - matplotlib
 - astropy
@@ -14,7 +14,7 @@ The following Python packages are needed for this pipeline to function
 
 ## Functions
 
-This pipeline performs all the basic CCD data reduction. This is done using the Python package ccdproc, which can be downloaded using `pip install ccdproc` for python2 or `pip3 install ccdproc` for python3
+This pipeline performs all the basic CCD data reduction. This is done using the Python package ccdproc, which can be downloaded using `pip install ccdproc` for python2 or `pip3 install ccdproc` for python3.
 
 The data reduction steps performed are:
 - create a master bias frame
